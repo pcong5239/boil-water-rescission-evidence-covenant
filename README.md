@@ -100,7 +100,7 @@ The verified result for this revision is `13 passed`, lint validation passed for
 
 - Store the predicates that drive the consequential state, not only a free-form model explanation.
 - Treat external pages as hostile evidence and isolate their text from contract instructions.
-- Bind every source body to a digest so a later reviewer can see exactly which evidence was evaluated.
+- Bind every source body to a digest so an independent verifier can see exactly which evidence was evaluated.
 - Distinguish finalized execution from a transport-level accepted response before reading downstream state.
 - Make replay and version boundaries explicit so an old review cannot silently affect a new advisory.
 

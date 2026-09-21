@@ -8,25 +8,19 @@
 - GenLayer runtime family: `v0.6.0-rc5`
 - Pinned packages: `genlayer-py==0.19.0rc2`, `genlayer-test==0.30.0rc2`, `genvm-linter==0.11.1rc2`
 
-## Local verification
+## Reproducible verification
 
-The exact WSL test command was:
-
-```text
-wsl.exe -e bash -lc 'set -o pipefail; TOOL="/mnt/e/Genlayer-Tools/studio-next-toolchain"; ROOT="/mnt/e/Intelligent Contracts_Project/Boil Water Rescission Evidence Covenant"; cd "$ROOT"; "$TOOL/.wsl-venv/bin/python" -m pytest tests -q'
-```
-
-Result: `13 passed`.
-
-The exact lint command used the Studio Next bundled linter:
+Install the pinned requirements, then run these commands from the repository
+root:
 
 ```text
-genvm-lint.exe check contracts/boil_water_rescission_evidence_covenant.py
+python -m pytest tests -q
+genvm-lint check contracts/boil_water_rescission_evidence_covenant.py
+pip check
 ```
 
-Result: validation passed; 9 public methods (5 view, 4 write).
-
-`pip check` passed with no broken requirements.
+Results: `13 passed`; validation passed for 9 public methods (5 view, 4
+write); no broken requirements.
 
 ## Coverage represented by the tests
 
