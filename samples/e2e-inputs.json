@@ -1,0 +1,35 @@
+{
+  "network": "Studio Dev",
+  "chain_id": 61997,
+  "authority_origins": [
+    "https://www.dcwater.com",
+    "https://dcwater.com"
+  ],
+  "final_advisory_registration": {
+    "advisory_reference": "May 2024 DC Water Upper Northwest boil-water advisory",
+    "service_area_label": "Upper Northwest D.C. area affecting approximately 4,800 customers",
+    "advisory_identity_hash": "333333333333333333333333333333333333333333333333333333333333333c",
+    "service_area_hash": "444444444444444444444444444444444444444444444444444444444444444d",
+    "issue_url": "https://www.dcwater.com/about-dc-water/media/news/drinking-water-advisory-dc-water-issues-boil-water-advisory-customers",
+    "rescission_url": "https://www.dcwater.com/about-dc-water/media/news/update-dc-water-lifts-boil-water-advisory-all-affected-customers",
+    "laboratory_url": "https://www.dcwater.com/about-dc-water/media/news/update-dc-water-repairs-broken-115-year-old-water-main-sample-testing"
+  },
+  "final_assessment": {
+    "review_id": "review-v5-final",
+    "expected_state": "CLEARABLE"
+  },
+  "wrong_area_counterexample": {
+    "advisory_reference": "May 2024 DC Water Upper Northwest boil-water advisory",
+    "service_area_label": "a service area outside the Upper Northwest D.C. area named in the notices",
+    "advisory_identity_hash": "111111111111111111111111111111111111111111111111111111111111111a",
+    "service_area_hash": "222222222222222222222222222222222222222222222222222222222222222b",
+    "review_id": "review-v4-wrong-area",
+    "expected_state": "UNRESOLVED",
+    "expected_area_match": false
+  },
+  "authorization_counterexample": {
+    "caller": "actor8",
+    "operation": "seal_evidence",
+    "expected_error": "OWNER_ONLY"
+  }
+}

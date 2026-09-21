@@ -1,0 +1,9 @@
+.pytest_cache/
+__pycache__/
+*.py[cod]
+.venv/
+RESEARCH.md
+artifacts/
+.env
+*.key
+*.pem
