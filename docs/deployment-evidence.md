@@ -6,7 +6,7 @@ This document records the public evidence for the exact deployed source revision
 
 - Network: Studio Dev
 - Chain ID: `61997`
-- Deployer: actor7, `0x8581c4a532dd3f9b163b12809b1bd089f367147f`
+- Deployer address: `0x8581c4a532dd3f9b163b12809b1bd089f367147f`
 - Contract: `0x40b8a22210420FEED97F3E54782d9Ee5f13afD3d`
 - Deploy transaction: [`0x630c14a39d45ba8ea44b27658ad6ebb79aaf4db41762f32a11067b9819e6180c`](https://explorer-studio-dev.genlayer.com/tx/0x630c14a39d45ba8ea44b27658ad6ebb79aaf4db41762f32a11067b9819e6180c)
 - Contract Explorer: [`0x40b8a22210420FEED97F3E54782d9Ee5f13afD3d`](https://explorer-studio-dev.genlayer.com/address/0x40b8a22210420FEED97F3E54782d9Ee5f13afD3d)
@@ -50,7 +50,7 @@ Every successful write below reached finalized semantic execution and was follow
 | ID | Operation and expected outcome | Transaction |
 | --- | --- | --- |
 | E2E-01 | Register v1; state `REGISTERED`, version 1 | [`0x50352f0a3bbabbb57d691f67d4acf7d5cf51b49997189314a803d00c32560ffd`](https://explorer-studio-dev.genlayer.com/tx/0x50352f0a3bbabbb57d691f67d4acf7d5cf51b49997189314a803d00c32560ffd) |
-| E2E-02 | actor8 seal attempt; `OWNER_ONLY`, state unchanged | [`0x45bb4f9247f27c30284794a8212f2e67049cb3058c7cc3c29758beda25fb0802`](https://explorer-studio-dev.genlayer.com/tx/0x45bb4f9247f27c30284794a8212f2e67049cb3058c7cc3c29758beda25fb0802) |
+| E2E-02 | Non-owner seal attempt; `OWNER_ONLY`, state unchanged | [`0x45bb4f9247f27c30284794a8212f2e67049cb3058c7cc3c29758beda25fb0802`](https://explorer-studio-dev.genlayer.com/tx/0x45bb4f9247f27c30284794a8212f2e67049cb3058c7cc3c29758beda25fb0802) |
 | E2E-03 | Owner seals v1; state `ACTIVE` | [`0x1820c13a9a70aecbaee12e6a27ec240389c742191be4d8de0c17fcf20888ccb4`](https://explorer-studio-dev.genlayer.com/tx/0x1820c13a9a70aecbaee12e6a27ec240389c742191be4d8de0c17fcf20888ccb4) |
 | E2E-04 | Assess v1; unresolved result stored at index 0 | [`0x82aeac00b1132e183fa29eee16fea06629fc526a7d7526899524b697d67b4f24`](https://explorer-studio-dev.genlayer.com/tx/0x82aeac00b1132e183fa29eee16fea06629fc526a7d7526899524b697d67b4f24) |
 | E2E-05 | Supersede v1 | [`0xdcb19cd16a465655a22781a3ba0e365c4878717401af28cb76b31c0d9239d57b`](https://explorer-studio-dev.genlayer.com/tx/0xdcb19cd16a465655a22781a3ba0e365c4878717401af28cb76b31c0d9239d57b) |

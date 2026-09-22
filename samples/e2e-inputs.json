@@ -28,7 +28,7 @@
     "expected_area_match": false
   },
   "authorization_counterexample": {
-    "caller": "actor8",
+    "caller": "non_owner",
     "operation": "seal_evidence",
     "expected_error": "OWNER_ONLY"
   }

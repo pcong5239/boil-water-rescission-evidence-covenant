@@ -7,7 +7,7 @@ An auditable GenLayer contract that turns multi-source public evidence about a b
 - Network: GenLayer Studio Dev, Chain ID `61997`
 - Contract: [`0x40b8a22210420FEED97F3E54782d9Ee5f13afD3d`](https://explorer-studio-dev.genlayer.com/address/0x40b8a22210420FEED97F3E54782d9Ee5f13afD3d)
 - Deploy transaction: [`0x630c14a39d45ba8ea44b27658ad6ebb79aaf4db41762f32a11067b9819e6180c`](https://explorer-studio-dev.genlayer.com/tx/0x630c14a39d45ba8ea44b27658ad6ebb79aaf4db41762f32a11067b9819e6180c)
-- Deployer: actor7, `0x8581c4a532dd3f9b163b12809b1bd089f367147f`
+- Deployer address: `0x8581c4a532dd3f9b163b12809b1bd089f367147f`
 - Final assessment: [`0x614bec7179e572ceea7530a8c1c9b4bd48835d5d2993abbad391bb3bcca25478`](https://explorer-studio-dev.genlayer.com/tx/0x614bec7179e572ceea7530a8c1c9b4bd48835d5d2993abbad391bb3bcca25478)
 - Counterexample, wrong service area: [`0x997be343bcd3353978cf9512b4f5345572294615de07e987e532d8bdd7acc157`](https://explorer-studio-dev.genlayer.com/tx/0x997be343bcd3353978cf9512b4f5345572294615de07e987e532d8bdd7acc157)
 - Authorization failure, non-owner seal attempt: [`0x45bb4f9247f27c30284794a8212f2e67049cb3058c7cc3c29758beda25fb0802`](https://explorer-studio-dev.genlayer.com/tx/0x45bb4f9247f27c30284794a8212f2e67049cb3058c7cc3c29758beda25fb0802)
